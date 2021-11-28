@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+
+    <ImageView
+        android:layout_width="277dp"
+        android:layout_height="319dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/cartoon" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="90dp"
+        android:text="Create Free Notes"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Making notes helps you to stay active and engaged during your lectures, reading and revision."
+        android:layout_marginTop="550dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="20dp"
+        android:textColor="@color/teal_200"
+        android:textStyle="normal"/>
+    <Button
+        android:id="@+id/but1"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="650dp"
+        android:layout_marginLeft="30dp"
+        android:text="START TO NOTE  😉"
+        android:background="@color/purple_200"/>
+
+  </RelativeLayout>
+
+
